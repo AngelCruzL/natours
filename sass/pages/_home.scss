@@ -4,16 +4,12 @@
   margin-top: -20vh;
 
   @include response(big-desktop) {
-    padding: 55rem 0;
+    padding: 33rem 0;
     margin-bottom: -10vh;
   }
 
-  @include response(tab-port) {
-    padding: 32rem 0;
-  }
-
-  @include response(phone) {
-    padding: 28rem 0;
+  @include response(tab-land) {
+    padding: 38rem 0 30rem 0;
   }
 }
 
@@ -44,7 +40,7 @@
   margin-top: -11.5rem;
 
   @include response(tab-port) {
-    padding: 20rem 0 10rem 0;
+    padding: 2rem 0 10rem 0;
   }
 }
 

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css",
-    "watch-css": "nodemon -e scss -x \"npm run compile:sass\""
+    "watch:sass": "node-sass sass/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run watch:sass\""
   },
   "keywords": [],
   "author": "",
